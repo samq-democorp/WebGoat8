@@ -35,7 +35,7 @@ Actions:
       Artifacts:
         - Name: MendLogs
           Files:
-            - whitesource/*
+            - "whitesource/*"
 
     # Defines the action's properties.
     Configuration:
