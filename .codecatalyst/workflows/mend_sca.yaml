@@ -32,6 +32,10 @@ Actions:
           Format: SARIFSCA
           IncludePaths:
             - report.sarif
+      Artifacts:
+        - Name: MendLogs
+          Files:
+            - ./whitesource
 
     # Defines the action's properties.
     Configuration:
